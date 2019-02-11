@@ -39,7 +39,6 @@ public class Trainer {
             var randomMaxVal = 50;
 
             for (var i = 0; i < examples; i++) {
-
                 var randomB = 5;
               randomB *= randomB;
                 var randomC = 4;
@@ -64,7 +63,7 @@ public class Trainer {
         }
     }
 
-    public void printValues(@NonNull Session.Runner runner, String... names) {
+    private void printValues(@NonNull Session.Runner runner, String... names) {
 
         for (var name : names) {
             runner = runner.fetch(name + "/read");
