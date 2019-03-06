@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.lisanderl.ml</groupId>
-    <artifactId>theorem</artifactId>
+    <artifactId>presentation</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <exec.mainClass>org.lisanderl.ml.theorem.Main</exec.mainClass>
+        <exec.mainClass>org.lisanderl.ml.presentation.SimpleTraining</exec.mainClass>
         <!-- The sample code requires at least JDK 1.7. -->
         <!-- The maven compiler plugin defaults to a lower version -->
         <maven.compiler.source>11</maven.compiler.source>
@@ -19,8 +19,15 @@
         <dependency>
             <groupId>org.tensorflow</groupId>
             <artifactId>tensorflow</artifactId>
-            <version>1.12.0</version>
+            <version>1.13.1</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.tensorflow</groupId>
+            <artifactId>libtensorflow_jni_gpu</artifactId>
+            <version>1.13.1</version>
+        </dependency>
+
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>

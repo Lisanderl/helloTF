@@ -1,12 +1,11 @@
-package org.lisanderl.ml.theorem;
+package org.lisanderl.ml.presentation;
 
 import lombok.extern.java.Log;
-import org.tensorflow.Session;
 
 import java.io.IOException;
 
 @Log
-public class Main {
+public class SimpleTraining {
 
     public static void main(String ... args){
 

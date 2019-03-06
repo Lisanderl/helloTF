@@ -8,7 +8,7 @@ target = tf.placeholder(tf.float32, name="target")
 
 powVal = tf.Variable(1., name='powVal')
 # sqrtVal = tf.Variable(0.5, name='sqrtVal')
-
+tf
 out = (tf.math.pow(b, powVal) + tf.math.pow(c, powVal))
 out = tf.identity(out, name='output')
 
@@ -24,8 +24,8 @@ saver_def = tf.train.Saver().as_saver_def()
 
 print('Python tf version:                       ', tf.__version__)
 print()
-print('Operation to initialize variables:       ', init.name)
-print('Tensor to feed as input data:            ', b.name)
+
+
 print('Tensor to feed as input data:            ', c.name)
 print('Tensor to feed as training targets:      ', target.name)
 print('Tensor to fetch as prediction:           ', out.name)

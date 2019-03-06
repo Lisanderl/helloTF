@@ -1,4 +1,4 @@
-package org.lisanderl.ml.theorem;
+package org.lisanderl.ml.presentation;
 
 import lombok.NonNull;
 import org.tensorflow.Graph;
